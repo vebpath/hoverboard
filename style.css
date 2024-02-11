@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+}
+
+#main{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+#main >div{
+    width: 20px;
+    height: 20px;
+    background-color: #353535;
+    border-radius: 50%;
+    transition: 2s ease;
+}
+
+#main >div:hover{
+transition-duration: 0s;
+}
